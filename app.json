@@ -21,13 +21,20 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions" : ["android.permission.VIBRATE"],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.frmostafa.frTodo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7bbd3123-5c5b-41a3-abfe-bf2193fdea1a"
+      }
     }
   }
 }
